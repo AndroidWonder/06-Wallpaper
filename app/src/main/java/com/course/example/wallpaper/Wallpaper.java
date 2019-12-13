@@ -39,7 +39,7 @@ public class Wallpaper extends Activity {
 				Toast.makeText(getApplicationContext(), "Wallpaper Set",
 						Toast.LENGTH_LONG).show();
 				try {
-					paper.setResource(R.raw.yankees); // set wallpaper
+					paper.setResource(R.raw.android); // set wallpaper
 				} catch (IOException e) { Log.e("wallpaper", "wallpaper not set");
 				}
 			}
