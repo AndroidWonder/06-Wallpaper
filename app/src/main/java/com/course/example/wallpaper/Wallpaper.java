@@ -29,6 +29,7 @@ public class Wallpaper extends Activity {
 		setContentView(R.layout.main);
 		
 		paper = WallpaperManager.getInstance(this);
+
 		button1 = (Button) findViewById(R.id.button01);
 		button2 = (Button) findViewById(R.id.button02);
 
